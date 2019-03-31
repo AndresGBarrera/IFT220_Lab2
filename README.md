@@ -9,8 +9,8 @@
 1.	Launch an Elevated (run as Admin) **PowerShell ISE** (don't use just PowerShell) and run:
 ```powershell
 # Configure Git
-git config --global user.name <your name>
-git config --global user.email <your email address>
+git config --global user.name Andres
+git config --global user.email agbarre2@asu.edu
 git config --global push.default simple
 
 # Install Posh-Git
@@ -25,7 +25,7 @@ mkdir .\Documents\GitHub
 cd .\Documents\GitHub
 
 # Clone your copy of my code in you new GitHub folder
-git clone https://github.com/<your_account>/IFT220_Lab2.git
+git clone https://github.com/AndresGBarrera/IFT220_Lab2.git
 
 # Look at what the clone command did.
 ```
