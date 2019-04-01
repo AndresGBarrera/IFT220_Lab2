@@ -38,7 +38,7 @@ $Readhost = Read-Host -Prompt ("y | n ")
 Do {
 Write-Host -ForegroundColor yellow "What's the domain name going to be? It should be"
 Write-Host -ForegroundColor yellow "ad.agbarre2.lan, for example"
-Write-Host -ForegroundColor yellow "ad.4sparky.lan"
+Write-Host -ForegroundColor yellow "ad.agbarre2.lan"
 $domainname = Read-Host "ad.agbarre2.lan" 
 } until ($domainname.StartsWith("ad."))
 
